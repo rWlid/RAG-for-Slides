@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides Q&A</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h1>??????</h1>
+        <button id="refresh-btn" type="button" class="icon-btn">?</button>
+      </div>
+      <div id="subject-list" class="subject-list"></div>
+      <div class="sidebar-row">
+        <input id="new-subject" type="text" placeholder="??? ???? ?????">
+        <button id="add-btn" type="button">?????</button>
+      </div>
+      <label class="file-label">
+        <span>??? ??? .md</span>
+        <input id="file-input" type="file" accept=".md">
+      </label>
+      <button id="upload-btn" type="button">???</button>
+      <div id="upload-status" class="status"></div>
+    </aside>
+
+    <main class="chat-panel">
+      <header class="chat-header">
+        <div id="chat-title">???? ????</div>
+        <div id="chat-status"></div>
+      </header>
+      <section id="messages" class="messages">
+        <div class="empty-state">???? ???? ?? ??????? ?? ??? ???? ?????</div>
+      </section>
+      <div class="input-area">
+        <input id="user-input" type="text" placeholder="???? ????? ???" disabled>
+        <button id="send-btn" type="button" disabled>?????</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

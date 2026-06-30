@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+chromadb
+sentence-transformers
+langchain-text-splitters
+ollama
+python-multipart
